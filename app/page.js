@@ -2,6 +2,7 @@ import { Grid, GridItem } from '@chakra-ui/react'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
 import Footer from '@/components/Footer'
+import UploadVideo from '@/components/UploadVideo'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         </GridItem>
         <GridItem colSpan={"5"}>
           <Navbar />
+          <UploadVideo />
         </GridItem>
       </Grid>
       <Footer />
